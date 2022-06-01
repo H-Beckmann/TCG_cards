@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7E97F0128478B1100D6FD97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E97F0028478B1100D6FD97 /* AppDelegate.swift */; };
+		F7E97F0328478B1100D6FD97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E97F0228478B1100D6FD97 /* SceneDelegate.swift */; };
+		F7E97F0528478B1100D6FD97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E97F0428478B1100D6FD97 /* ViewController.swift */; };
+		F7E97F0828478B1100D6FD97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7E97F0628478B1100D6FD97 /* Main.storyboard */; };
+		F7E97F0A28478B1300D6FD97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7E97F0928478B1300D6FD97 /* Assets.xcassets */; };
+		F7E97F0D28478B1300D6FD97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7E97F0B28478B1300D6FD97 /* LaunchScreen.storyboard */; };
+		F7E97F1828478B1300D6FD97 /* TCGPokemonCardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E97F1728478B1300D6FD97 /* TCGPokemonCardsTests.swift */; };
+		F7E97F2228478B1300D6FD97 /* TCGPokemonCardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E97F2128478B1300D6FD97 /* TCGPokemonCardsUITests.swift */; };
+		F7E97F2428478B1300D6FD97 /* TCGPokemonCardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E97F2328478B1300D6FD97 /* TCGPokemonCardsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7E97F1428478B1300D6FD97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7E97EF528478B1100D6FD97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7E97EFC28478B1100D6FD97;
+			remoteInfo = TCGPokemonCards;
+		};
+		F7E97F1E28478B1300D6FD97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7E97EF528478B1100D6FD97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7E97EFC28478B1100D6FD97;
+			remoteInfo = TCGPokemonCards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7E97EFD28478B1100D6FD97 /* TCGPokemonCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCGPokemonCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E97F0028478B1100D6FD97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7E97F0228478B1100D6FD97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F7E97F0428478B1100D6FD97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7E97F0728478B1100D6FD97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7E97F0928478B1300D6FD97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7E97F0C28478B1300D6FD97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7E97F0E28478B1300D6FD97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7E97F1328478B1300D6FD97 /* TCGPokemonCardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCGPokemonCardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E97F1728478B1300D6FD97 /* TCGPokemonCardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCGPokemonCardsTests.swift; sourceTree = "<group>"; };
+		F7E97F1D28478B1300D6FD97 /* TCGPokemonCardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCGPokemonCardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E97F2128478B1300D6FD97 /* TCGPokemonCardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCGPokemonCardsUITests.swift; sourceTree = "<group>"; };
+		F7E97F2328478B1300D6FD97 /* TCGPokemonCardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCGPokemonCardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7E97EFA28478B1100D6FD97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E97F1028478B1300D6FD97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E97F1A28478B1300D6FD97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7E97EF428478B1100D6FD97 = {
+			isa = PBXGroup;
+			children = (
+				F7E97EFF28478B1100D6FD97 /* TCGPokemonCards */,
+				F7E97F1628478B1300D6FD97 /* TCGPokemonCardsTests */,
+				F7E97F2028478B1300D6FD97 /* TCGPokemonCardsUITests */,
+				F7E97EFE28478B1100D6FD97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7E97EFE28478B1100D6FD97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7E97EFD28478B1100D6FD97 /* TCGPokemonCards.app */,
+				F7E97F1328478B1300D6FD97 /* TCGPokemonCardsTests.xctest */,
+				F7E97F1D28478B1300D6FD97 /* TCGPokemonCardsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7E97EFF28478B1100D6FD97 /* TCGPokemonCards */ = {
+			isa = PBXGroup;
+			children = (
+				F7E97F0028478B1100D6FD97 /* AppDelegate.swift */,
+				F7E97F0228478B1100D6FD97 /* SceneDelegate.swift */,
+				F7E97F0428478B1100D6FD97 /* ViewController.swift */,
+				F7E97F0628478B1100D6FD97 /* Main.storyboard */,
+				F7E97F0928478B1300D6FD97 /* Assets.xcassets */,
+				F7E97F0B28478B1300D6FD97 /* LaunchScreen.storyboard */,
+				F7E97F0E28478B1300D6FD97 /* Info.plist */,
+			);
+			path = TCGPokemonCards;
+			sourceTree = "<group>";
+		};
+		F7E97F1628478B1300D6FD97 /* TCGPokemonCardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7E97F1728478B1300D6FD97 /* TCGPokemonCardsTests.swift */,
+			);
+			path = TCGPokemonCardsTests;
+			sourceTree = "<group>";
+		};
+		F7E97F2028478B1300D6FD97 /* TCGPokemonCardsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7E97F2128478B1300D6FD97 /* TCGPokemonCardsUITests.swift */,
+				F7E97F2328478B1300D6FD97 /* TCGPokemonCardsUITestsLaunchTests.swift */,
+			);
+			path = TCGPokemonCardsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7E97EFC28478B1100D6FD97 /* TCGPokemonCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E97F2728478B1300D6FD97 /* Build configuration list for PBXNativeTarget "TCGPokemonCards" */;
+			buildPhases = (
+				F7E97EF928478B1100D6FD97 /* Sources */,
+				F7E97EFA28478B1100D6FD97 /* Frameworks */,
+				F7E97EFB28478B1100D6FD97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCGPokemonCards;
+			productName = TCGPokemonCards;
+			productReference = F7E97EFD28478B1100D6FD97 /* TCGPokemonCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7E97F1228478B1300D6FD97 /* TCGPokemonCardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E97F2A28478B1300D6FD97 /* Build configuration list for PBXNativeTarget "TCGPokemonCardsTests" */;
+			buildPhases = (
+				F7E97F0F28478B1300D6FD97 /* Sources */,
+				F7E97F1028478B1300D6FD97 /* Frameworks */,
+				F7E97F1128478B1300D6FD97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7E97F1528478B1300D6FD97 /* PBXTargetDependency */,
+			);
+			name = TCGPokemonCardsTests;
+			productName = TCGPokemonCardsTests;
+			productReference = F7E97F1328478B1300D6FD97 /* TCGPokemonCardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7E97F1C28478B1300D6FD97 /* TCGPokemonCardsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E97F2D28478B1300D6FD97 /* Build configuration list for PBXNativeTarget "TCGPokemonCardsUITests" */;
+			buildPhases = (
+				F7E97F1928478B1300D6FD97 /* Sources */,
+				F7E97F1A28478B1300D6FD97 /* Frameworks */,
+				F7E97F1B28478B1300D6FD97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7E97F1F28478B1300D6FD97 /* PBXTargetDependency */,
+			);
+			name = TCGPokemonCardsUITests;
+			productName = TCGPokemonCardsUITests;
+			productReference = F7E97F1D28478B1300D6FD97 /* TCGPokemonCardsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7E97EF528478B1100D6FD97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F7E97EFC28478B1100D6FD97 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					F7E97F1228478B1300D6FD97 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = F7E97EFC28478B1100D6FD97;
+					};
+					F7E97F1C28478B1300D6FD97 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = F7E97EFC28478B1100D6FD97;
+					};
+				};
+			};
+			buildConfigurationList = F7E97EF828478B1100D6FD97 /* Build configuration list for PBXProject "TCGPokemonCards" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7E97EF428478B1100D6FD97;
+			productRefGroup = F7E97EFE28478B1100D6FD97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7E97EFC28478B1100D6FD97 /* TCGPokemonCards */,
+				F7E97F1228478B1300D6FD97 /* TCGPokemonCardsTests */,
+				F7E97F1C28478B1300D6FD97 /* TCGPokemonCardsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7E97EFB28478B1100D6FD97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E97F0D28478B1300D6FD97 /* LaunchScreen.storyboard in Resources */,
+				F7E97F0A28478B1300D6FD97 /* Assets.xcassets in Resources */,
+				F7E97F0828478B1100D6FD97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E97F1128478B1300D6FD97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E97F1B28478B1300D6FD97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7E97EF928478B1100D6FD97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E97F0528478B1100D6FD97 /* ViewController.swift in Sources */,
+				F7E97F0128478B1100D6FD97 /* AppDelegate.swift in Sources */,
+				F7E97F0328478B1100D6FD97 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E97F0F28478B1300D6FD97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E97F1828478B1300D6FD97 /* TCGPokemonCardsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E97F1928478B1300D6FD97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E97F2228478B1300D6FD97 /* TCGPokemonCardsUITests.swift in Sources */,
+				F7E97F2428478B1300D6FD97 /* TCGPokemonCardsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7E97F1528478B1300D6FD97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7E97EFC28478B1100D6FD97 /* TCGPokemonCards */;
+			targetProxy = F7E97F1428478B1300D6FD97 /* PBXContainerItemProxy */;
+		};
+		F7E97F1F28478B1300D6FD97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7E97EFC28478B1100D6FD97 /* TCGPokemonCards */;
+			targetProxy = F7E97F1E28478B1300D6FD97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7E97F0628478B1100D6FD97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E97F0728478B1100D6FD97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7E97F0B28478B1300D6FD97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E97F0C28478B1300D6FD97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7E97F2528478B1300D6FD97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7E97F2628478B1300D6FD97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7E97F2828478B1300D6FD97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QACG8PTGRH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TCGPokemonCards/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nunes.TCGPokemonCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7E97F2928478B1300D6FD97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QACG8PTGRH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TCGPokemonCards/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nunes.TCGPokemonCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7E97F2B28478B1300D6FD97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QACG8PTGRH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nunes.TCGPokemonCardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCGPokemonCards.app/TCGPokemonCards";
+			};
+			name = Debug;
+		};
+		F7E97F2C28478B1300D6FD97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QACG8PTGRH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nunes.TCGPokemonCardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCGPokemonCards.app/TCGPokemonCards";
+			};
+			name = Release;
+		};
+		F7E97F2E28478B1300D6FD97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QACG8PTGRH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nunes.TCGPokemonCardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TCGPokemonCards;
+			};
+			name = Debug;
+		};
+		F7E97F2F28478B1300D6FD97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QACG8PTGRH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nunes.TCGPokemonCardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TCGPokemonCards;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7E97EF828478B1100D6FD97 /* Build configuration list for PBXProject "TCGPokemonCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E97F2528478B1300D6FD97 /* Debug */,
+				F7E97F2628478B1300D6FD97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7E97F2728478B1300D6FD97 /* Build configuration list for PBXNativeTarget "TCGPokemonCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E97F2828478B1300D6FD97 /* Debug */,
+				F7E97F2928478B1300D6FD97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7E97F2A28478B1300D6FD97 /* Build configuration list for PBXNativeTarget "TCGPokemonCardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E97F2B28478B1300D6FD97 /* Debug */,
+				F7E97F2C28478B1300D6FD97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7E97F2D28478B1300D6FD97 /* Build configuration list for PBXNativeTarget "TCGPokemonCardsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E97F2E28478B1300D6FD97 /* Debug */,
+				F7E97F2F28478B1300D6FD97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7E97EF528478B1100D6FD97 /* Project object */;
+}
