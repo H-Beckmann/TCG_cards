@@ -1,0 +1,6 @@
+framework module Pods_TCGPokemonCardsTests {
+  umbrella header "Pods-TCGPokemonCardsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
