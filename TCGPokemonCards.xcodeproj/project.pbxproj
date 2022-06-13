@@ -10,6 +10,7 @@
 		0229B699758D56B6BD033982 /* Pods_TCGPokemonCardsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 447665C8465D78FE26DC04F9 /* Pods_TCGPokemonCardsTests.framework */; };
 		194D7990B832A41954ADD437 /* Pods_TCGPokemonCards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3867A62D2FD12DA5C924F82C /* Pods_TCGPokemonCards.framework */; };
 		94B1D5D285FDFCBDBC258CD9 /* Pods_TCGPokemonCards_TCGPokemonCardsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21094518D4E814BBAD46B371 /* Pods_TCGPokemonCards_TCGPokemonCardsUITests.framework */; };
+		F70FE04F2854B94700911FFA /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70FE04E2854B94600911FFA /* CustomTableViewCell.swift */; };
 		F7E97F0128478B1100D6FD97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E97F0028478B1100D6FD97 /* AppDelegate.swift */; };
 		F7E97F0328478B1100D6FD97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E97F0228478B1100D6FD97 /* SceneDelegate.swift */; };
 		F7E97F0528478B1100D6FD97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E97F0428478B1100D6FD97 /* ViewController.swift */; };
@@ -49,6 +50,7 @@
 		C8EB13D6280CC10AB94A54AE /* Pods-TCGPokemonCardsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCGPokemonCardsTests.debug.xcconfig"; path = "Target Support Files/Pods-TCGPokemonCardsTests/Pods-TCGPokemonCardsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D86611466606D14ADBF22229 /* Pods-TCGPokemonCards-TCGPokemonCardsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCGPokemonCards-TCGPokemonCardsUITests.debug.xcconfig"; path = "Target Support Files/Pods-TCGPokemonCards-TCGPokemonCardsUITests/Pods-TCGPokemonCards-TCGPokemonCardsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EA315E7E3419B9746006C632 /* Pods-TCGPokemonCards-TCGPokemonCardsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCGPokemonCards-TCGPokemonCardsUITests.release.xcconfig"; path = "Target Support Files/Pods-TCGPokemonCards-TCGPokemonCardsUITests/Pods-TCGPokemonCards-TCGPokemonCardsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F70FE04E2854B94600911FFA /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		F7E97EFD28478B1100D6FD97 /* TCGPokemonCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCGPokemonCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E97F0028478B1100D6FD97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7E97F0228478B1100D6FD97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				F7E97F0928478B1300D6FD97 /* Assets.xcassets */,
 				F7E97F0B28478B1300D6FD97 /* LaunchScreen.storyboard */,
 				F7E97F0E28478B1300D6FD97 /* Info.plist */,
+				F70FE04E2854B94600911FFA /* CustomTableViewCell.swift */,
 			);
 			path = TCGPokemonCards;
 			sourceTree = "<group>";
@@ -426,6 +429,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7E97F0528478B1100D6FD97 /* ViewController.swift in Sources */,
+				F70FE04F2854B94700911FFA /* CustomTableViewCell.swift in Sources */,
 				F7E97F3328478C6E00D6FD97 /* PokemonAPI.swift in Sources */,
 				F7E97F0128478B1100D6FD97 /* AppDelegate.swift in Sources */,
 				F7E97F0328478B1100D6FD97 /* SceneDelegate.swift in Sources */,

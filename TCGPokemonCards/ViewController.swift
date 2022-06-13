@@ -11,28 +11,19 @@ import SwiftyJSON
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.dataSource = self
+        tableView.delegate = self
         getJson(url: "https://api.pokemontcg.io/v2/cards?pageSize=150", completion: { cards in
             print(cards)
-            print("Do something with this fucking card var")
+//            print("Do something with this fucking card var")
             
         })
         // Do any additional setup after loading the view.
     }
-    
-//    func getJson(url: String){
-//        AF.request(url, method: .get, parameters: nil, encoding: URLEncoding.default, headers: nil, interceptor: nil).responseJSON{
-//            (responseData) in
-//            let dictionary = (responseData.value as! NSDictionary)["data"]
-//            do{
-//                let cards = try JSONDecoder().decode([Card].self, from: dictionary as! Data)
-//                print(cards)
-//            }catch{
-//                print(error)
-//            }
-//            }
-//        }
     
     func getJson(url: String, completion: @escaping ([Cards])->Void){
         AF.request(url, method: .get, parameters: nil, encoding: URLEncoding.default, headers: nil, interceptor: nil).response {
@@ -49,4 +40,26 @@ class ViewController: UIViewController {
                 }
             }
         }
+}
+
+
+extension ViewController: UITableViewDataSource, UITableViewDelegate {
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 140
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustomTableViewCell
+        
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 13
+    }
+    
+    
+    
+    
 }
