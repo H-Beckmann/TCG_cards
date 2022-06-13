@@ -7,7 +7,16 @@ target 'TCGPokemonCards' do
 
   # Pods for TCGPokemonCards
   pod 'Alamofire'
-  pod 'SwiftyJSON'
+  pod "Bow",                 "~> 0.8.0"
+  pod "BowOptics",           "~> 0.8.0"
+  pod "BowRecursionSchemes", "~> 0.8.0"
+  pod "BowFree",             "~> 0.8.0"
+  pod "BowGeneric",          "~> 0.8.0"
+  pod "BowEffects",          "~> 0.8.0"
+  pod "BowRx",               "~> 0.8.0"
+  pod 'Charts'
+  pod 'TinyConstraints'
+  
   target 'TCGPokemonCardsTests' do
     inherit! :search_paths
     # Pods for testing

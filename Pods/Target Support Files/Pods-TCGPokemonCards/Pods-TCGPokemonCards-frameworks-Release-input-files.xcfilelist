@@ -1,3 +1,13 @@
 ${PODS_ROOT}/Target Support Files/Pods-TCGPokemonCards/Pods-TCGPokemonCards-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
-${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
+${BUILT_PRODUCTS_DIR}/Bow/Bow.framework
+${BUILT_PRODUCTS_DIR}/BowEffects/BowEffects.framework
+${BUILT_PRODUCTS_DIR}/BowFree/BowFree.framework
+${BUILT_PRODUCTS_DIR}/BowGeneric/BowGeneric.framework
+${BUILT_PRODUCTS_DIR}/BowOptics/BowOptics.framework
+${BUILT_PRODUCTS_DIR}/BowRecursionSchemes/BowRecursionSchemes.framework
+${BUILT_PRODUCTS_DIR}/BowRx/BowRx.framework
+${BUILT_PRODUCTS_DIR}/Charts/Charts.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/SwiftAlgorithms/Algorithms.framework
+${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework

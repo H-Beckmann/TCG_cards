@@ -1,20 +1,69 @@
 PODS:
   - Alamofire (5.6.1)
-  - SwiftyJSON (5.0.1)
+  - Bow (0.8.0)
+  - BowEffects (0.8.0):
+    - Bow (~> 0.8.0)
+  - BowFree (0.8.0):
+    - Bow (~> 0.8.0)
+  - BowGeneric (0.8.0):
+    - Bow (~> 0.8.0)
+  - BowOptics (0.8.0):
+    - Bow (~> 0.8.0)
+  - BowRecursionSchemes (0.8.0):
+    - Bow (~> 0.8.0)
+  - BowRx (0.8.0):
+    - Bow (~> 0.8.0)
+    - BowEffects (~> 0.8.0)
+    - RxSwift (~> 5.1.1)
+  - Charts (4.0.3):
+    - Charts/Core (= 4.0.3)
+  - Charts/Core (4.0.3):
+    - SwiftAlgorithms (~> 1.0)
+  - RxSwift (5.1.3)
+  - SwiftAlgorithms (1.0.0)
+  - TinyConstraints (4.0.2)
 
 DEPENDENCIES:
   - Alamofire
-  - SwiftyJSON
+  - Bow (~> 0.8.0)
+  - BowEffects (~> 0.8.0)
+  - BowFree (~> 0.8.0)
+  - BowGeneric (~> 0.8.0)
+  - BowOptics (~> 0.8.0)
+  - BowRecursionSchemes (~> 0.8.0)
+  - BowRx (~> 0.8.0)
+  - Charts
+  - TinyConstraints
 
 SPEC REPOS:
   trunk:
     - Alamofire
-    - SwiftyJSON
+    - Bow
+    - BowEffects
+    - BowFree
+    - BowGeneric
+    - BowOptics
+    - BowRecursionSchemes
+    - BowRx
+    - Charts
+    - RxSwift
+    - SwiftAlgorithms
+    - TinyConstraints
 
 SPEC CHECKSUMS:
   Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
-  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  Bow: a709b8d14ac59d7f1d2f8388891c8632628e7575
+  BowEffects: 16ba770445cbbd0f58c5c9f53edfa3c63098d49e
+  BowFree: 881cb50d812942e9a79db8411f4dff6df5d7c566
+  BowGeneric: 6692347e82564a922f1e8db3fcd3dbf08e889514
+  BowOptics: 2b5801dc9ab7532098cc47d5f2cc38635def9b16
+  BowRecursionSchemes: 0ed89b19d3f04ad05b35478df035697bad1dfb60
+  BowRx: 336e4129a12ebe99a822ae8c3c86dc4f15a57c92
+  Charts: d959d6723c8eedfdd0735dfc28cb0a71762ac4d9
+  RxSwift: 915abbdfb62214aa89ccd0b194d44fb478019b27
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+  TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
 
-PODFILE CHECKSUM: 8b91c22ca6d6c843728c64dfda35eb95826a50e8
+PODFILE CHECKSUM: 95cac4516d3f6b56e403660112d629f7f9356a2e
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.3
