@@ -177,11 +177,31 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Bow/Bow.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/BowEffects/BowEffects.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/BowFree/BowFree.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/BowGeneric/BowGeneric.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/BowOptics/BowOptics.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/BowRecursionSchemes/BowRecursionSchemes.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/BowRx/BowRx.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Charts/Charts.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftAlgorithms/Algorithms.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Bow/Bow.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/BowEffects/BowEffects.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/BowFree/BowFree.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/BowGeneric/BowGeneric.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/BowOptics/BowOptics.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/BowRecursionSchemes/BowRecursionSchemes.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/BowRx/BowRx.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Charts/Charts.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftAlgorithms/Algorithms.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
